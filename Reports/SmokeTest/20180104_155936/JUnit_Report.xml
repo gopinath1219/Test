@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="626" tests="1" failures="2" errors="0">
+   <testsuite name="SmokeTest" tests="1" failures="2" errors="0" time="626" timestamp="2018-01-04 15:59:38" hostname="GThatikonda - INHYDTGOPINATH.logisticsdev.intra" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936"/>
+         <property name="logFiles" value="C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515061813584.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515061851814.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515062087386.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515062231041.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515062347481.png"/>
+         <property name="hostName" value="GThatikonda - INHYDTGOPINATH.logisticsdev.intra"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="10.138.106.68"/>
+         <property name="sessionId" value="4196c8ed2e3cea2efab4a6db250ad5a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR" classname="Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)"/>
+         <system-out><![CDATA[2018-01-04 15:59:38 - [TEST_CASE][FAILED] - Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR: Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)
+
+2018-01-04 15:59:39 - [TEST_STEP][PASSED] - new1.SignInIE.As: new1.SignInIE.As is PASSED
+
+2018-01-04 15:59:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://logistics%5cTopuser1_branch:pass1234@focisdemo.agility.com/'
+
+2018-01-04 15:59:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - new1.SignInIE.As is PASSED
+
+2018-01-04 15:59:54 - [TEST_STEP][PASSED] - fn.Create.mutiQuote: fn.Create.mutiQuote is PASSED
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is present
+
+2018-01-04 15:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clickable
+
+2018-01-04 16:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clicked on
+
+2018-01-04 16:00:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:00:00 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:00:00 - [MESSAGE][PASSED] - fn.Create.mutiQuote is PASSED
+
+2018-01-04 16:00:00 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Air Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-04 16:00:00 - [MESSAGE][PASSED] - All options with label 'Air Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-04 16:00:00 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Expedited' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:00:00 - [MESSAGE][PASSED] - All options with label 'Expedited' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:00:00 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Premier' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:00:01 - [MESSAGE][PASSED] - All options with label 'Premier' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:00:01 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Value' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:00:01 - [MESSAGE][PASSED] - All options with label 'Value' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:00:01 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-04 16:00:01 - [MESSAGE][PASSED] - Object 'OriginPort' is visible
+
+2018-01-04 16:00:01 - [MESSAGE][PASSED] - Object: 'OriginPort' is clicked on
+
+2018-01-04 16:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-04 16:00:03 - [MESSAGE][PASSED] - Text 'UAK' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:04 - [MESSAGE][PASSED] - Object 'UAK' is visible
+
+2018-01-04 16:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:00:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:05 - [MESSAGE][PASSED] - Text 'NAQ' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:06 - [MESSAGE][PASSED] - Object 'NAQ' is visible
+
+2018-01-04 16:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:00:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:07 - [MESSAGE][PASSED] - Text 'KUS' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:09 - [MESSAGE][PASSED] - Object 'KUS' is visible
+
+2018-01-04 16:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:00:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-04 16:00:09 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-04 16:00:09 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-04 16:00:10 - [MESSAGE][PASSED] - Object 'DestinationPort' is visible
+
+2018-01-04 16:00:10 - [MESSAGE][PASSED] - Object: 'DestinationPort' is clicked on
+
+2018-01-04 16:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-04 16:00:10 - [MESSAGE][PASSED] - Text 'KWI' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:12 - [MESSAGE][PASSED] - Object 'KWI' is visible
+
+2018-01-04 16:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:00:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-04 16:00:13 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-04 16:00:13 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Airport to Airport' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-04 16:00:13 - [MESSAGE][PASSED] - All options with label 'Airport to Airport' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-04 16:00:13 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-04 16:00:13 - [MESSAGE][PASSED] - All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-04 16:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-04 16:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-04 16:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/KnownShipper YES' is clicked on
+
+2018-01-04 16:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/KnownShipper YES' is clicked on
+
+2018-01-04 16:00:13 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-04 16:00:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515061813584.png]]
+
+2018-01-04 16:00:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-04 16:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-04 16:00:21 - [TEST_STEP][PASSED] - fn.DragAndDropUnique.portCodesAir: fn.DragAndDropUnique.portCodesAir is PASSED
+
+2018-01-04 16:00:23 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/CarrierSearch/chkAllRoutes' is clickable
+
+2018-01-04 16:00:24 - [MESSAGE][PASSED] - fn.DragAndDropUnique.portCodesAir is PASSED
+
+2018-01-04 16:00:24 - [TEST_STEP][PASSED] - fn.Create.MQ_with_AgilityTariff: fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-04 16:00:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-04 16:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/btn_Add_Agility_Tariff' is clicked on
+
+2018-01-04 16:00:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:00:31 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:00:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' successfully
+
+2018-01-04 16:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' is clicked on
+
+2018-01-04 16:00:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:00:35 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:00:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' successfully
+
+2018-01-04 16:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' is clicked on
+
+2018-01-04 16:00:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:00:47 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:00:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:00:48 - [MESSAGE][PASSED] - fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-04 16:00:48 - [TEST_STEP][PASSED] - Statement - MQ_No = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/MQ/QuoteInfoPage/getQuoteNo)): Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-111-INDEV'
+
+2018-01-04 16:00:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-111-INDEV'
+
+2018-01-04 16:00:48 - [TEST_STEP][PASSED] - Statement - err.println(MQ_No): null
+
+2018-01-04 16:00:48 - [TEST_STEP][PASSED] - setText: Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.84' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-04 16:00:48 - [MESSAGE][PASSED] - fn.Host.details is PASSED
+
+2018-01-04 16:00:51 - [MESSAGE][PASSED] - Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.84' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-04 16:00:51 - [TEST_STEP][PASSED] - setText: Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-04 16:00:51 - [MESSAGE][PASSED] - fn.Host.name is PASSED
+
+2018-01-04 16:00:51 - [MESSAGE][PASSED] - Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-04 16:00:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-04 16:00:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515061851814.png]]
+
+2018-01-04 16:00:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-04 16:00:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:00:53 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-04 16:00:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-04 16:00:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-04 16:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-04 16:00:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-04 16:00:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:00:58 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-04 16:00:59 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-04 16:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-04 16:01:02 - [TEST_STEP][PASSED] - fn.Select.Customer: fn.Select.Customer is PASSED
+
+2018-01-04 16:01:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:01:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:01:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' successfully
+
+2018-01-04 16:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' is clicked on
+
+2018-01-04 16:01:04 - [MESSAGE][PASSED] - Text 'z AES TEST STAKEHOLDER' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-04 16:01:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-04 16:01:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:01:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-04 16:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is present
+
+2018-01-04 16:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clickable
+
+2018-01-04 16:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clicked on
+
+2018-01-04 16:01:07 - [MESSAGE][PASSED] - fn.Select.Customer is PASSED
+
+2018-01-04 16:01:07 - [TEST_STEP][FAILED] - fn.Submit_To.QuoteApprover: Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)
+
+2018-01-04 16:01:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:01:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' successfully
+
+2018-01-04 16:01:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' is clicked on
+
+2018-01-04 16:01:08 - [MESSAGE][PASSED] - Text 'topuser2_branch' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchUser'
+
+2018-01-04 16:01:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:01:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is present
+
+2018-01-04 16:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clickable
+
+2018-01-04 16:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clicked on
+
+2018-01-04 16:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_SubmitToQuoteApprover' is clicked on
+
+2018-01-04 16:01:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-04 16:01:14 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)
+
+2018-01-04 16:01:14 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)]]></system-out>
+         <system-err><![CDATA[2018-01-04 15:59:38 - [TEST_CASE][FAILED] - Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR: Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL" classname="Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;PWCButton&quot;>...&lt;/button> is not clickable at point (223, 193). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay jqgrid-overlay&quot; id=&quot;lui_grdQuotationLs&quot; style=&quot;display: block;&quot;>&lt;/div>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: 9aa845c21d8cf9ecee46ef2a2fdd4559)"/>
+         <system-out><![CDATA[2018-01-04 16:01:14 - [TEST_CASE][FAILED] - Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL: Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL FAILED because (of) Unable to click on object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="PWCButton">...</button> is not clickable at point (223, 193). Other element would receive the click: <div class="ui-widget-overlay jqgrid-overlay" id="lui_grdQuotationLs" style="display: block;"></div>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: 9aa845c21d8cf9ecee46ef2a2fdd4559)
+
+2018-01-04 16:01:15 - [TEST_STEP][PASSED] - new1.SignInIE.As: new1.SignInIE.As is PASSED
+
+2018-01-04 16:01:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-04 16:04:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://logistics%5cTopuser1_branch:pass1234@focisdemo.agility.com/'
+
+2018-01-04 16:04:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-04 16:04:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:04:16 - [MESSAGE][WARNING] - This page doesn't use jQuery.
+
+2018-01-04 16:04:16 - [MESSAGE][PASSED] - new1.SignInIE.As is PASSED
+
+2018-01-04 16:04:16 - [TEST_STEP][FAILED] - fn.Create.mutiQuote: Unable to click on object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="PWCButton">...</button> is not clickable at point (223, 193). Other element would receive the click: <div class="ui-widget-overlay jqgrid-overlay" id="lui_grdQuotationLs" style="display: block;"></div>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: 9aa845c21d8cf9ecee46ef2a2fdd4559)
+
+2018-01-04 16:04:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:04:16 - [MESSAGE][WARNING] - This page doesn't use jQuery.
+
+2018-01-04 16:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is present
+
+2018-01-04 16:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clickable
+
+2018-01-04 16:04:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="PWCButton">...</button> is not clickable at point (223, 193). Other element would receive the click: <div class="ui-widget-overlay jqgrid-overlay" id="lui_grdQuotationLs" style="display: block;"></div>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: 9aa845c21d8cf9ecee46ef2a2fdd4559)
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515062087386.png]]
+
+2018-01-04 16:04:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="PWCButton">...</button> is not clickable at point (223, 193). Other element would receive the click: <div class="ui-widget-overlay jqgrid-overlay" id="lui_grdQuotationLs" style="display: block;"></div>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: 9aa845c21d8cf9ecee46ef2a2fdd4559)]]></system-out>
+         <system-err><![CDATA[2018-01-04 16:01:14 - [TEST_CASE][FAILED] - Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL: Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL FAILED because (of) Unable to click on object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="PWCButton">...</button> is not clickable at point (223, 193). Other element would receive the click: <div class="ui-widget-overlay jqgrid-overlay" id="lui_grdQuotationLs" style="display: block;"></div>
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: 9aa845c21d8cf9ecee46ef2a2fdd4559)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL" classname="Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL" status="PASSED">
+         <system-out><![CDATA[2018-01-04 16:04:47 - [TEST_CASE][PASSED] - Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL: Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL
+
+2018-01-04 16:04:48 - [TEST_STEP][PASSED] - new1.SignInIE.As: new1.SignInIE.As is PASSED
+
+2018-01-04 16:04:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-04 16:05:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://logistics%5cTopuser1_branch:pass1234@focisdemo.agility.com/'
+
+2018-01-04 16:05:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-04 16:05:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:05:44 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:05:44 - [MESSAGE][PASSED] - new1.SignInIE.As is PASSED
+
+2018-01-04 16:05:44 - [TEST_STEP][PASSED] - fn.Create.mutiQuote: fn.Create.mutiQuote is PASSED
+
+2018-01-04 16:05:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:05:44 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:05:44 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is present
+
+2018-01-04 16:05:44 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clickable
+
+2018-01-04 16:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clicked on
+
+2018-01-04 16:06:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:06:58 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:06:58 - [MESSAGE][PASSED] - fn.Create.mutiQuote is PASSED
+
+2018-01-04 16:06:58 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Ocean Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-04 16:06:58 - [MESSAGE][PASSED] - All options with label 'Ocean Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-04 16:06:58 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'LCL (NVOCC)' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:06:58 - [MESSAGE][PASSED] - All options with label 'LCL (NVOCC)' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-04 16:06:58 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-04 16:06:58 - [MESSAGE][PASSED] - Object 'OriginPort' is visible
+
+2018-01-04 16:06:58 - [MESSAGE][PASSED] - Object: 'OriginPort' is clicked on
+
+2018-01-04 16:07:00 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-04 16:07:00 - [MESSAGE][PASSED] - Text 'INMAA' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:01 - [MESSAGE][PASSED] - Object 'INMAA' is visible
+
+2018-01-04 16:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:07:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:02 - [MESSAGE][PASSED] - Text 'INNSA' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:03 - [MESSAGE][PASSED] - Object 'INNSA' is visible
+
+2018-01-04 16:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:07:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:04 - [MESSAGE][PASSED] - Text 'INCCU' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:06 - [MESSAGE][PASSED] - Object 'INCCU' is visible
+
+2018-01-04 16:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:07:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-04 16:07:06 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-04 16:07:06 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-04 16:07:06 - [MESSAGE][PASSED] - Object 'DestinationPort' is visible
+
+2018-01-04 16:07:07 - [MESSAGE][PASSED] - Object: 'DestinationPort' is clicked on
+
+2018-01-04 16:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-04 16:07:08 - [MESSAGE][PASSED] - Text 'DEHAM' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:09 - [MESSAGE][PASSED] - Object 'DEHAM' is visible
+
+2018-01-04 16:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-04 16:07:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-04 16:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-04 16:07:10 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-04 16:07:10 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'CFS to CFS' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-04 16:07:10 - [MESSAGE][PASSED] - All options with label 'CFS to CFS' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-04 16:07:10 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-04 16:07:10 - [MESSAGE][PASSED] - All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-04 16:07:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-04 16:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-04 16:07:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-04 16:07:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515062231041.png]]
+
+2018-01-04 16:07:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-04 16:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-04 16:07:39 - [TEST_STEP][PASSED] - fn.DragAndDropUnique.portCodesLCL: fn.DragAndDropUnique.portCodesLCL is PASSED
+
+2018-01-04 16:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/CarrierSearch/chkAllRoutes' is clickable
+
+2018-01-04 16:07:40 - [MESSAGE][PASSED] - fn.DragAndDropUnique.portCodesLCL is PASSED
+
+2018-01-04 16:07:40 - [TEST_STEP][PASSED] - fn.Create.MQ_with_AgilityTariff: fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-04 16:07:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-04 16:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/btn_Add_Agility_Tariff' is clicked on
+
+2018-01-04 16:08:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:08:19 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:08:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' successfully
+
+2018-01-04 16:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' is clicked on
+
+2018-01-04 16:08:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:08:22 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:08:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' successfully
+
+2018-01-04 16:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' is clicked on
+
+2018-01-04 16:09:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:09:02 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:09:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:09:03 - [MESSAGE][PASSED] - fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-04 16:09:03 - [TEST_STEP][PASSED] - Statement - MQ_No = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/MQ/QuoteInfoPage/getQuoteNo)): Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-112-INDEV'
+
+2018-01-04 16:09:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-112-INDEV'
+
+2018-01-04 16:09:04 - [TEST_STEP][PASSED] - Statement - err.println(MQ_No): null
+
+2018-01-04 16:09:04 - [TEST_STEP][PASSED] - setText: Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.84' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-04 16:09:04 - [MESSAGE][PASSED] - fn.Host.details is PASSED
+
+2018-01-04 16:09:07 - [MESSAGE][PASSED] - Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.84' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-04 16:09:07 - [TEST_STEP][PASSED] - setText: Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-04 16:09:07 - [MESSAGE][PASSED] - fn.Host.name is PASSED
+
+2018-01-04 16:09:07 - [MESSAGE][PASSED] - Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-04 16:09:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-04 16:09:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180104_155936\\1515062347481.png]]
+
+2018-01-04 16:09:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-04 16:09:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:09:08 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-04 16:09:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-04 16:09:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-04 16:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-04 16:09:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-04 16:09:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:09:24 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-04 16:09:25 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:09:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-04 16:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-04 16:09:38 - [TEST_STEP][PASSED] - fn.Select.Customer: fn.Select.Customer is PASSED
+
+2018-01-04 16:09:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:09:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:09:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' successfully
+
+2018-01-04 16:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' is clicked on
+
+2018-01-04 16:09:40 - [MESSAGE][PASSED] - Text 'z AES TEST STAKEHOLDER' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-04 16:09:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-04 16:09:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:09:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-04 16:09:46 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is present
+
+2018-01-04 16:09:46 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clickable
+
+2018-01-04 16:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clicked on
+
+2018-01-04 16:09:46 - [MESSAGE][PASSED] - fn.Select.Customer is PASSED
+
+2018-01-04 16:09:46 - [TEST_STEP][PASSED] - fn.Submit_To.QuoteApprover: fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-04 16:09:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:09:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' successfully
+
+2018-01-04 16:09:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' is clicked on
+
+2018-01-04 16:09:47 - [MESSAGE][PASSED] - Text 'topuser2_branch' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchUser'
+
+2018-01-04 16:09:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-04 16:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is present
+
+2018-01-04 16:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clickable
+
+2018-01-04 16:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clicked on
+
+2018-01-04 16:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_SubmitToQuoteApprover' is clicked on
+
+2018-01-04 16:10:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-04 16:10:03 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-04 16:10:03 - [MESSAGE][PASSED] - fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-04 16:10:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-04 16:10:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-04 15:59:38 - [TEST_SUITE][FAILED] - SmokeTest: Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)]]></system-out>
+      <system-err><![CDATA[2018-01-04 15:59:38 - [TEST_SUITE][FAILED] - SmokeTest: Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : error}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INHYDTGOPINATH', ip: '10.138.106.68', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GTHATI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: d61d40cad3de8aa6eb9a25cf2d43e42c)]]></system-err>
+   </testsuite>
+</testsuites>

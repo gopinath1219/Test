@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QuoteCustomerRefNo</name>
+   <tag></tag>
+   <elementGuidId>6c0f3a0e-47cd-4d26-99f8-c8b749794c76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='PWCMasterPage_PWCWebPartManager_gwpMultiQuoteFrUc_MultiQuoteFrUc_txtQuoteCustRefNumber']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,7 @@
+GlobalVariables.glbl
+*.glbl
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/

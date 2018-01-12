@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>FOCiS_Quotation_Module</name>
+   <tag></tag>
+   <UUID>2fe877ab-03c4-4604-b873-0e64b0194254</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/MQ_Smoke_Scenario</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/MQ</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Suites/TestSuite_1</recentOpenedTreeEntityIds>
+</Project>

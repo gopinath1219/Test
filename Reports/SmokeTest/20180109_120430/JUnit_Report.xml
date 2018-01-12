@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="282" tests="3" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="3" failures="0" errors="0" time="282" timestamp="2018-01-09 12:04:39" hostname="GThatikonda - INHYDTGOPINATH.logisticsdev.intra" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430"/>
+         <property name="logFiles" value="C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479726531.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479774966.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479836598.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479865061.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479916192.png, C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479938696.png"/>
+         <property name="hostName" value="GThatikonda - INHYDTGOPINATH.logisticsdev.intra"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.138.106.68"/>
+         <property name="sessionId" value="7796de9fad3f36b6897c1ef31b3986fb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR" classname="Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR" status="PASSED">
+         <system-out><![CDATA[2018-01-09 12:04:40 - [TEST_CASE][PASSED] - Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR: Test Cases/MQ_Smoke_Scenario/Air/1_CSR_Create_MQ_AIR
+
+2018-01-09 12:04:40 - [TEST_STEP][PASSED] - new1.SignInIE.As: new1.SignInIE.As is PASSED
+
+2018-01-09 12:04:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://logistics%5cTopuser1_branch:pass1234@focisdemo.agility.com/'
+
+2018-01-09 12:04:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-09 12:04:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:05:02 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:05:02 - [MESSAGE][PASSED] - new1.SignInIE.As is PASSED
+
+2018-01-09 12:05:02 - [TEST_STEP][PASSED] - fn.Create.mutiQuote: fn.Create.mutiQuote is PASSED
+
+2018-01-09 12:05:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:05:02 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is present
+
+2018-01-09 12:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clickable
+
+2018-01-09 12:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clicked on
+
+2018-01-09 12:05:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:05:13 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:05:13 - [MESSAGE][PASSED] - fn.Create.mutiQuote is PASSED
+
+2018-01-09 12:05:13 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Air Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-09 12:05:14 - [MESSAGE][PASSED] - All options with label 'Air Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-09 12:05:14 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Expedited' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:05:14 - [MESSAGE][PASSED] - All options with label 'Expedited' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:05:14 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Premier' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:05:14 - [MESSAGE][PASSED] - All options with label 'Premier' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:05:14 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Value' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:05:14 - [MESSAGE][PASSED] - All options with label 'Value' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:05:14 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-09 12:05:14 - [MESSAGE][PASSED] - Object 'OriginPort' is visible
+
+2018-01-09 12:05:15 - [MESSAGE][PASSED] - Object: 'OriginPort' is clicked on
+
+2018-01-09 12:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-09 12:05:16 - [MESSAGE][PASSED] - Text 'UAK' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:17 - [MESSAGE][PASSED] - Object 'UAK' is visible
+
+2018-01-09 12:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:05:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:18 - [MESSAGE][PASSED] - Text 'NAQ' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:19 - [MESSAGE][PASSED] - Object 'NAQ' is visible
+
+2018-01-09 12:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:05:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:20 - [MESSAGE][PASSED] - Text 'KUS' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:22 - [MESSAGE][PASSED] - Object 'KUS' is visible
+
+2018-01-09 12:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:05:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-09 12:05:23 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-09 12:05:23 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-09 12:05:23 - [MESSAGE][PASSED] - Object 'DestinationPort' is visible
+
+2018-01-09 12:05:23 - [MESSAGE][PASSED] - Object: 'DestinationPort' is clicked on
+
+2018-01-09 12:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-09 12:05:23 - [MESSAGE][PASSED] - Text 'KWI' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:25 - [MESSAGE][PASSED] - Object 'KWI' is visible
+
+2018-01-09 12:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:05:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-09 12:05:25 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-09 12:05:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Airport to Airport' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-09 12:05:26 - [MESSAGE][PASSED] - All options with label 'Airport to Airport' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-09 12:05:26 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-09 12:05:26 - [MESSAGE][PASSED] - All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-09 12:05:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-09 12:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-09 12:05:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/KnownShipper YES' is clicked on
+
+2018-01-09 12:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/KnownShipper YES' is clicked on
+
+2018-01-09 12:05:26 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-09 12:05:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479726531.png]]
+
+2018-01-09 12:05:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-09 12:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-09 12:05:32 - [TEST_STEP][PASSED] - fn.DragAndDropUnique.portCodesAir: fn.DragAndDropUnique.portCodesAir is PASSED
+
+2018-01-09 12:05:32 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/CarrierSearch/chkAllRoutes' is clickable
+
+2018-01-09 12:05:34 - [MESSAGE][PASSED] - fn.DragAndDropUnique.portCodesAir is PASSED
+
+2018-01-09 12:05:34 - [TEST_STEP][PASSED] - fn.Create.MQ_with_AgilityTariff: fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-09 12:05:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-09 12:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/btn_Add_Agility_Tariff' is clicked on
+
+2018-01-09 12:05:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:05:39 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:05:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' successfully
+
+2018-01-09 12:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' is clicked on
+
+2018-01-09 12:06:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:01 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:06:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' successfully
+
+2018-01-09 12:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' is clicked on
+
+2018-01-09 12:06:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:10 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:06:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:06:11 - [MESSAGE][PASSED] - fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-09 12:06:11 - [TEST_STEP][PASSED] - Statement - MQ_No = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/MQ/QuoteInfoPage/getQuoteNo)): Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-130-INDEV'
+
+2018-01-09 12:06:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-130-INDEV'
+
+2018-01-09 12:06:11 - [TEST_STEP][PASSED] - Statement - err.println(MQ_No): null
+
+2018-01-09 12:06:11 - [TEST_STEP][PASSED] - setText: Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.132' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-09 12:06:11 - [MESSAGE][PASSED] - fn.Host.details is PASSED
+
+2018-01-09 12:06:14 - [MESSAGE][PASSED] - Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.132' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-09 12:06:14 - [TEST_STEP][PASSED] - setText: Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-09 12:06:14 - [MESSAGE][PASSED] - fn.Host.name is PASSED
+
+2018-01-09 12:06:14 - [MESSAGE][PASSED] - Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-09 12:06:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-09 12:06:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479774966.png]]
+
+2018-01-09 12:06:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-09 12:06:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:06:16 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-09 12:06:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-09 12:06:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-09 12:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-09 12:06:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-09 12:06:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:20 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-09 12:06:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:06:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-09 12:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-09 12:06:28 - [TEST_STEP][PASSED] - fn.Select.Customer: fn.Select.Customer is PASSED
+
+2018-01-09 12:06:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:06:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' successfully
+
+2018-01-09 12:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' is clicked on
+
+2018-01-09 12:06:30 - [MESSAGE][PASSED] - Text 'z AES TEST STAKEHOLDER' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-09 12:06:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-09 12:06:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is present
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clickable
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clicked on
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - fn.Select.Customer is PASSED
+
+2018-01-09 12:06:32 - [TEST_STEP][PASSED] - fn.Submit_To.QuoteApprover: fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' successfully
+
+2018-01-09 12:06:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' is clicked on
+
+2018-01-09 12:06:34 - [MESSAGE][PASSED] - Text 'topuser2_branch' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchUser'
+
+2018-01-09 12:06:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is present
+
+2018-01-09 12:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clickable
+
+2018-01-09 12:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clicked on
+
+2018-01-09 12:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_SubmitToQuoteApprover' is clicked on
+
+2018-01-09 12:06:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:06:40 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:06:40 - [MESSAGE][PASSED] - fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-09 12:06:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-09 12:06:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL" classname="Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL" status="PASSED">
+         <system-out><![CDATA[2018-01-09 12:06:41 - [TEST_CASE][PASSED] - Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL: Test Cases/MQ_Smoke_Scenario/FCL/1_CSR_Create_MQ_FCL
+
+2018-01-09 12:06:42 - [TEST_STEP][PASSED] - new1.SignInIE.As: new1.SignInIE.As is PASSED
+
+2018-01-09 12:07:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://logistics%5cTopuser1_branch:pass1234@focisdemo.agility.com/'
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - new1.SignInIE.As is PASSED
+
+2018-01-09 12:07:01 - [TEST_STEP][PASSED] - fn.Create.mutiQuote: fn.Create.mutiQuote is PASSED
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is present
+
+2018-01-09 12:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clickable
+
+2018-01-09 12:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clicked on
+
+2018-01-09 12:07:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:04 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:04 - [MESSAGE][PASSED] - fn.Create.mutiQuote is PASSED
+
+2018-01-09 12:07:04 - [TEST_STEP][PASSED] - fn.ValidateProduct.productType: fn.ValidateProduct.productType is PASSED
+
+2018-01-09 12:07:04 - [MESSAGE][PASSED] - fn.ValidateProduct.productType is PASSED
+
+2018-01-09 12:07:04 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-09 12:07:04 - [MESSAGE][PASSED] - Object 'OriginPort' is visible
+
+2018-01-09 12:07:05 - [MESSAGE][PASSED] - Object: 'OriginPort' is clicked on
+
+2018-01-09 12:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-09 12:07:05 - [MESSAGE][PASSED] - Text 'INMAA' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:07 - [MESSAGE][PASSED] - Object 'INMAA' is visible
+
+2018-01-09 12:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:07:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:08 - [MESSAGE][PASSED] - Text 'INNSA' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:10 - [MESSAGE][PASSED] - Object 'INNSA' is visible
+
+2018-01-09 12:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:07:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:11 - [MESSAGE][PASSED] - Text 'INCCU' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:12 - [MESSAGE][PASSED] - Object 'INCCU' is visible
+
+2018-01-09 12:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:07:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-09 12:07:13 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-09 12:07:13 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-09 12:07:13 - [MESSAGE][PASSED] - Object 'DestinationPort' is visible
+
+2018-01-09 12:07:13 - [MESSAGE][PASSED] - Object: 'DestinationPort' is clicked on
+
+2018-01-09 12:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-09 12:07:14 - [MESSAGE][PASSED] - Text 'DEHAM' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:15 - [MESSAGE][PASSED] - Object 'DEHAM' is visible
+
+2018-01-09 12:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:07:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-09 12:07:16 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-09 12:07:16 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'CY to CY' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-09 12:07:16 - [MESSAGE][PASSED] - All options with label 'CY to CY' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-09 12:07:16 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-09 12:07:16 - [MESSAGE][PASSED] - All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-09 12:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-09 12:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-09 12:07:16 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-09 12:07:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479836598.png]]
+
+2018-01-09 12:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-09 12:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-09 12:07:23 - [TEST_STEP][PASSED] - fn.DragAndDropUnique.portCodesFCL: fn.DragAndDropUnique.portCodesFCL is PASSED
+
+2018-01-09 12:07:23 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/CarrierSearch/chkAllRoutes' is clickable
+
+2018-01-09 12:07:24 - [MESSAGE][PASSED] - fn.DragAndDropUnique.portCodesFCL is PASSED
+
+2018-01-09 12:07:24 - [TEST_STEP][PASSED] - fn.Create.MQ_with_AgilityTariff: fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-09 12:07:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-09 12:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/btn_Add_Agility_Tariff' is clicked on
+
+2018-01-09 12:07:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:29 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' successfully
+
+2018-01-09 12:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' is clicked on
+
+2018-01-09 12:07:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:31 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' successfully
+
+2018-01-09 12:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' is clicked on
+
+2018-01-09 12:07:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:40 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:07:41 - [MESSAGE][PASSED] - fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-09 12:07:41 - [TEST_STEP][PASSED] - Statement - MQ_No = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/MQ/QuoteInfoPage/getQuoteNo)): Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-131-INDEV'
+
+2018-01-09 12:07:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-131-INDEV'
+
+2018-01-09 12:07:41 - [TEST_STEP][PASSED] - Statement - err.println(MQ_No): null
+
+2018-01-09 12:07:41 - [TEST_STEP][PASSED] - setText: Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.132' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-09 12:07:41 - [MESSAGE][PASSED] - fn.Host.details is PASSED
+
+2018-01-09 12:07:44 - [MESSAGE][PASSED] - Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.132' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-09 12:07:44 - [TEST_STEP][PASSED] - setText: Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-09 12:07:44 - [MESSAGE][PASSED] - fn.Host.name is PASSED
+
+2018-01-09 12:07:45 - [MESSAGE][PASSED] - Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-09 12:07:45 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-09 12:07:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479865061.png]]
+
+2018-01-09 12:07:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-09 12:07:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:07:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-09 12:07:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-09 12:07:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-09 12:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-09 12:07:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-09 12:07:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:49 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-09 12:07:49 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-09 12:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-09 12:07:51 - [TEST_STEP][PASSED] - fn.Select.Customer: fn.Select.Customer is PASSED
+
+2018-01-09 12:07:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:07:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' successfully
+
+2018-01-09 12:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' is clicked on
+
+2018-01-09 12:07:53 - [MESSAGE][PASSED] - Text 'z AES TEST STAKEHOLDER' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-09 12:07:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-09 12:07:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-09 12:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is present
+
+2018-01-09 12:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clickable
+
+2018-01-09 12:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clicked on
+
+2018-01-09 12:07:56 - [MESSAGE][PASSED] - fn.Select.Customer is PASSED
+
+2018-01-09 12:07:56 - [TEST_STEP][PASSED] - fn.Submit_To.QuoteApprover: fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-09 12:07:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' successfully
+
+2018-01-09 12:07:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' is clicked on
+
+2018-01-09 12:07:57 - [MESSAGE][PASSED] - Text 'topuser2_branch' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchUser'
+
+2018-01-09 12:07:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:07:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:07:58 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is present
+
+2018-01-09 12:07:58 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clickable
+
+2018-01-09 12:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clicked on
+
+2018-01-09 12:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_SubmitToQuoteApprover' is clicked on
+
+2018-01-09 12:08:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:05 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:05 - [MESSAGE][PASSED] - fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-09 12:08:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-09 12:08:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL" classname="Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL" status="PASSED">
+         <system-out><![CDATA[2018-01-09 12:08:06 - [TEST_CASE][PASSED] - Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL: Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL
+
+2018-01-09 12:08:06 - [TEST_STEP][PASSED] - new1.SignInIE.As: new1.SignInIE.As is PASSED
+
+2018-01-09 12:08:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://logistics%5cTopuser1_branch:pass1234@focisdemo.agility.com/'
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - new1.SignInIE.As is PASSED
+
+2018-01-09 12:08:22 - [TEST_STEP][PASSED] - fn.Create.mutiQuote: fn.Create.mutiQuote is PASSED
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is present
+
+2018-01-09 12:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clickable
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/ListPage/btn_Create Multi-Quote' is clicked on
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - fn.Create.mutiQuote is PASSED
+
+2018-01-09 12:08:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Ocean Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - All options with label 'Ocean Freight' are selected in object 'Object Repository/MQ/CarrierSearch/Product' 
+
+2018-01-09 12:08:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'LCL (NVOCC)' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - All options with label 'LCL (NVOCC)' are selected in object 'Object Repository/MQ/CarrierSearch/ProductType' 
+
+2018-01-09 12:08:25 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - Object 'OriginPort' is visible
+
+2018-01-09 12:08:25 - [MESSAGE][PASSED] - Object: 'OriginPort' is clicked on
+
+2018-01-09 12:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-09 12:08:26 - [MESSAGE][PASSED] - Text 'INMAA' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:27 - [MESSAGE][PASSED] - Object 'INMAA' is visible
+
+2018-01-09 12:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:08:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:28 - [MESSAGE][PASSED] - Text 'INNSA' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:29 - [MESSAGE][PASSED] - Object 'INNSA' is visible
+
+2018-01-09 12:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:08:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:30 - [MESSAGE][PASSED] - Text 'INCCU' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:31 - [MESSAGE][PASSED] - Object 'INCCU' is visible
+
+2018-01-09 12:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:08:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-09 12:08:32 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-09 12:08:32 - [TEST_STEP][PASSED] - fn.Search.multiple: fn.Search.multiple is PASSED
+
+2018-01-09 12:08:32 - [MESSAGE][PASSED] - Object 'DestinationPort' is visible
+
+2018-01-09 12:08:33 - [MESSAGE][PASSED] - Object: 'DestinationPort' is clicked on
+
+2018-01-09 12:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/Port_Country_Search/selectRow' is clickable
+
+2018-01-09 12:08:33 - [MESSAGE][PASSED] - Text 'DEHAM' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:34 - [MESSAGE][PASSED] - Object 'DEHAM' is visible
+
+2018-01-09 12:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/selectRow' is clicked on
+
+2018-01-09 12:08:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/MQ/Port_Country_Search/search_port_or_country'
+
+2018-01-09 12:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/Port_Country_Search/Associate' is clicked on
+
+2018-01-09 12:08:35 - [MESSAGE][PASSED] - fn.Search.multiple is PASSED
+
+2018-01-09 12:08:35 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'CFS to CFS' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-09 12:08:35 - [MESSAGE][PASSED] - All options with label 'CFS to CFS' are selected in object 'Object Repository/MQ/CarrierSearch/Agility Movement Type' 
+
+2018-01-09 12:08:35 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-09 12:08:36 - [MESSAGE][PASSED] - All options with label 'Prepaid' are selected in object 'Object Repository/MQ/CarrierSearch/OF Term' 
+
+2018-01-09 12:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-09 12:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/HAZ NO' is clicked on
+
+2018-01-09 12:08:36 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-09 12:08:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479916192.png]]
+
+2018-01-09 12:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-09 12:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/Search_Carrier_Contract' is clicked on
+
+2018-01-09 12:08:41 - [TEST_STEP][PASSED] - fn.DragAndDropUnique.portCodesLCL: fn.DragAndDropUnique.portCodesLCL is PASSED
+
+2018-01-09 12:08:41 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/CarrierSearch/chkAllRoutes' is clickable
+
+2018-01-09 12:08:42 - [MESSAGE][PASSED] - fn.DragAndDropUnique.portCodesLCL is PASSED
+
+2018-01-09 12:08:42 - [TEST_STEP][PASSED] - fn.Create.MQ_with_AgilityTariff: fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-09 12:08:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-09 12:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/CarrierSearch/btn_Add_Agility_Tariff' is clicked on
+
+2018-01-09 12:08:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:46 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' successfully
+
+2018-01-09 12:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Search_Agility_Tariff' is clicked on
+
+2018-01-09 12:08:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:49 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' successfully
+
+2018-01-09 12:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/TariffSearch/Generate_Quote_with_Agility_Tariff' is clicked on
+
+2018-01-09 12:08:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:08:53 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:08:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:08:54 - [MESSAGE][PASSED] - fn.Create.MQ_with_AgilityTariff is PASSED
+
+2018-01-09 12:08:54 - [TEST_STEP][PASSED] - Statement - MQ_No = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/MQ/QuoteInfoPage/getQuoteNo)): Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-132-INDEV'
+
+2018-01-09 12:08:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/MQ/QuoteInfoPage/getQuoteNo' is: 'MQ-132-INDEV'
+
+2018-01-09 12:08:54 - [TEST_STEP][PASSED] - Statement - err.println(MQ_No): null
+
+2018-01-09 12:08:54 - [TEST_STEP][PASSED] - setText: Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.132' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-09 12:08:54 - [MESSAGE][PASSED] - fn.Host.details is PASSED
+
+2018-01-09 12:08:58 - [MESSAGE][PASSED] - Text 'Selenium Automation Script run by Local Host Name/IP Address: INHYDTGOPINATH/10.138.106.68
+Name of the OS         : Windows 7
+Version of the OS      : 6.1
+Architecture of the OS : amd64
+Name of the Browser    : chrome
+Browser Version        : 63.0.3239.132' is set on object 'Object Repository/MQ/QuoteInfoPage/Add Cargo Desription'
+
+2018-01-09 12:08:58 - [TEST_STEP][PASSED] - setText: Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-09 12:08:58 - [MESSAGE][PASSED] - fn.Host.name is PASSED
+
+2018-01-09 12:08:58 - [MESSAGE][PASSED] - Text 'INHYDTGOPINATH' is set on object 'Object Repository/MQ/QuoteInfoPage/QuoteCustomerRefNo'
+
+2018-01-09 12:08:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-01-09 12:08:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\GThatikonda\\git\\MultiQuote\\Reports\\SmokeTest\\20180109_120430\\1515479938696.png]]
+
+2018-01-09 12:08:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-01-09 12:09:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:09:00 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-09 12:09:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' successfully
+
+2018-01-09 12:09:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-09 12:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteInfoPage/btn_Save_and_Continue' is clicked on
+
+2018-01-09 12:09:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-09 12:09:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:09:09 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-09 12:09:09 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:09:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-09 12:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/MQ_Tab/QuoteSummaryTab' is clicked on
+
+2018-01-09 12:09:11 - [TEST_STEP][PASSED] - fn.Select.Customer: fn.Select.Customer is PASSED
+
+2018-01-09 12:09:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:09:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:09:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' successfully
+
+2018-01-09 12:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_CustomerNamePopup' is clicked on
+
+2018-01-09 12:09:13 - [MESSAGE][PASSED] - Text 'z AES TEST STAKEHOLDER' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-09 12:09:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/MQ/QuoteSummaryPage/searchAddress'
+
+2018-01-09 12:09:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is present
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clickable
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectAddress' is clicked on
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - fn.Select.Customer is PASSED
+
+2018-01-09 12:09:15 - [TEST_STEP][PASSED] - fn.Submit_To.QuoteApprover: fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:09:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' successfully
+
+2018-01-09 12:09:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_QuoteApproverPopup' is clicked on
+
+2018-01-09 12:09:16 - [MESSAGE][PASSED] - Text 'topuser2_branch' is set on object 'Object Repository/MQ/QuoteSummaryPage/searchUser'
+
+2018-01-09 12:09:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:09:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-01-09 12:09:18 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is present
+
+2018-01-09 12:09:18 - [MESSAGE][PASSED] - Object 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clickable
+
+2018-01-09 12:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/selectUser' is clicked on
+
+2018-01-09 12:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MQ/QuoteSummaryPage/btn_SubmitToQuoteApprover' is clicked on
+
+2018-01-09 12:09:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-09 12:09:21 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-09 12:09:21 - [MESSAGE][PASSED] - fn.Submit_To.QuoteApprover is PASSED
+
+2018-01-09 12:09:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-09 12:09:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-09 12:04:39 - [TEST_SUITE][PASSED] - SmokeTest: Test Cases/MQ_Smoke_Scenario/LCL/1_CSR_Create_MQ_LCL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
